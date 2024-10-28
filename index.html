@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instant loan in Nigeria| Personal Loan| Business Loan | Carbon</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/graphik-trial">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Mediaquery/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<style>
+    /* ACCORDION STYLING */
+/* Custom style */
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  }
+
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+    }
+
+
+    .accordion-item:first-of-type .accordion-button {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.accordion-item:first-of-type{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+  .accordion-button{
+    background-color: #fdf8f8;
+    box-shadow: 0 10px 30px -10px #1d01501a;
+    border-radius: 10px;
+    height: 75px;
+    font-size: 30px;
+    Line-height: 30px;
+    font-weight: 600;
+    color: #2c1762;
+   
+    
+}
+
+.m-4 {
+    margin: 0;
+}
+
+
+.accordion-header{
+    /* border: medium solid red; */
+    
+}
+
+.accordion-item{
+    border-radius: 20px;
+    border: 0;
+}
+
+.accordion{
+    width: 75%;
+    z-index: 6;
+    position: relative;
+}
+
+.accordion-button{
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: rgb(44, 23, 98);
+}
+
+.card-body strong{
+    color: rgba(0, 0, 0, 0.7);
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Graphik Trial', sans-serif;
+
+}
+
+.card-body p{
+    color: rgba(0, 0, 0, 0.7);
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Graphik Trial', sans-serif;
+
+}
+
+/* CAROUSEL CONTROL CSS */
+.carousel-inner{
+    /* margin-left: 50px; */
+    /* border: medium solid rgb(233, 14, 14);  */
+}
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-indicators {
+    top: -35px;
+    z-index: 3;
+}
+
+.carousel-indicators li {
+    background-color: #A6A4AA;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+}
+
+.carousel-indicators .active {
+    background-color: #222222;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+}
+
+   
+
+
+/* CAROUSEL TEXT SLIDERS CSS */
+.backBold{
+    /* width: 850px; */
+    height: 180px;
+     /* border: medium solid black; */
+     width: 80%;
+     display: inline-flex;
+     background-color: white;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     margin-left: 110px;
+ }
+
+ .imgDiv{
+     /* margin-left: 90px;
+     margin-top: 20px; */
+     /* border: medium solid rgb(245, 9, 9); */
+     /* background-color: rgb(247, 243, 243);
+     width: 20%;
+     height: 5px; */
+     padding-right: 80px;
+     padding-left: 50px;
+     border-right: thin solid black;
+
+ }
+
+ .imgDiv p{
+    font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     color: rgb(51, 51, 51);
+ }
+
+ .backBold p{
+     /* border: medium solid rgb(58, 10, 10); */
+     font-size: 10px;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+     padding: 20px 65px;
+     font-size: 14px;
+     font-weight: 400;
+ }
+
+ .userImgText{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px 15px;
+    
+ }
+ .userImgText p{
+    padding-top: 10px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 20px;
+    
+ }
+
+
+ .userImgText img{
+     width: 50px;
+     height: 50px;
+     border-radius: 25px;
+ }
+
+
+ @media(max-width: 991px){
+    .backBold{
+        width: 100%;
+        margin-left: 0;
+    }
+    .carousel-control.right{
+        margin-right: 20px;
+    }
+ }
+
+ @media (min-width: 576px) {
+   .section11 .container, .container-sm {
+        max-width: 100%;
+    }
+
+    @media(max-width: 645px){
+    .imgDiv {
+        /* border: medium solid rgb(245, 9, 9); */
+        padding-right: 30px;
+        padding-left: 20px;
+        border-right: thin solid black;
+    }
+}
+}
+
+@media(max-width: 585px){
+    .backBold p{
+    /* padding: 15px 25px; */
+}
+
+.backBold{
+    height: 350px;
+}
+.imgDiv{
+    padding-right: 20px;
+}
+}
+
+@media(max-width: 477px){
+    .backBold p{
+    /* padding: 15px 25px; */
+}
+
+.backBold{
+    height: 450px;
+    font-size: 10px;
+    flex-direction: column;
+}
+.imgDiv{
+    /* padding-right: 20px; */
+    /* padding-left: 50px; */
+    border-right: none;
+    border-bottom: thin solid black;
+
+}
+}
+
+@media(max-width: 390px){
+    .backBold p{
+    padding: 15px 25px;
+}
+
+.backBold{
+    height: 400px;
+    font-size: 10px;
+    flex-direction: column;
+}
+.imgDiv{
+    /* padding-right: 20px; */
+    /* padding-left: 50px; */
+    border-right: none;
+    border-bottom: thin solid black;
+
+}
+
+}
+
+
+
+</style>
+<body>
+    <header class="myheader">
+        <nav class="noeffectNav">
+            <div class="navbackground">
+                <div class="containerNoBo">
+                    <div class="navbar">
+
+                      <div class="left">
+                        <div class="leftlogo">
+                            <a href="/index.html"  class="logoImg"><img src="./Images/logo.webp" alt="" width="170px"></a>
+                            <div class="plans">
+                                <a href="/" class="Personal">
+                                    <span>Personal</span></a>
+                                <a href="./Business.html" class="business">Business</a>
+                            </div>
+                        </div>
+
+                        </div>
+                        <div class="right">
+                            <div class="rightnavlist">
+                                <ul class="navlist">
+                                    <li class="featuresMenu">
+                                        <a href="">Features</a>
+                                        <div class="megamenu">
+                                <div class="megamenu-content">
+                                    <div class="leftcontmenu">
+                                        <ul class="leftcontent">
+                                            <li class="megamenu-item">
+                                                <img src="./Images/645dfc91d6307df11f9f0730_Loans-icon.svg" alt="" width="40px">
+                                                <p>Loan</p>
+                                                <span>Instant loans whenever you need it</span>
+                                            </li>
+                                            <li class="megamenu-item">
+                                                <img src="./Images/64678cab442bef0ee623992e_cz icon.svg" alt="" width="40px">
+                                                <p>Carbon Zero</p>
+                                                <span>Buy now, Pay Later</span>
+                                            </li>
+                                           
+                                            <li class="megamenu-item">
+                                                <img src="./Images/65d318e41f1fb626c9ee8197_Circle logo.svg" alt="" width="40px">
+                                                <p>Carbon Circles</p>
+                                                <span>Save in a group with a common goal in mind</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="rightcontmenu">
+                                        <ul class="rightcontent">
+                                            <li class="megamenu-items">
+                                                <img src="./Images/645dfc91d6307df11f9f0732_Paymentsicon.svg" alt="" width="40px">
+                                                <p>Payment</p>
+                                                <span class="sptext">All your payments, in one place</span>
+                                            </li>
+                                            <li class="megamenu-item">
+                                                <img src="./Images/645dfc91d6307df11f9f0739_investment.svg" alt="" width="40px">
+                                                <p class="save">Savings</p>
+
+                                                <span>Earn returns on savings on Carbon</span>
+                                            </li>
+                                            <li class="megamenu-items">
+                                                <img src="./Images/645dfc91d6307df11f9f0733_Credit-report.svg" alt="" width="40px">
+                                                <p>Credit report</p>
+                                                <span class="sptext">Keep track of your credit history</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  
+                                        </div>
+                                      
+                                    </li>
+                        <!-- DROP DOWN FOR THE COMPANY NAVIGATION -->
+                                    <li class="featuresMenu2">
+                                        <a href="">Company</a>
+                                        <div class="megamenu2">
+                                           <div class="megamenu-content2">
+                                            <div class="leftcontmenu2">
+                                                <ul class="leftcontent2">
+                                                    <li
+                                                    class="megamenu-item2"> 
+                                                <img src="./Images/About.svg" alt="" width="40px">
+                                                <p>About Us</p>
+                                                <span>Providing financial access to anyone</span>
+                                    </li>
+                                                    <li class="megamenu-item2">
+                                                        <img src="./Images/Career.svg" alt="" width="40px">
+                                                        <p>Careers</p>
+                                                        <span>Build the best bank in Africa</span>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="rightcontmenu2">
+                                                <ul class="rightcontent2">
+                                                    <li class="megamenu-items2">
+                                                        <img src="./Images/blog.svg" alt="" width="40px">
+                                                        <p>Blog</p>
+                                                    <span>Get Carbon news and updates</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                           </div> 
+                                        </div>
+                                    </li>
+                                    <li><a href="">Loan Calculator</a></li>
+                                    <li><a href="./faq.html">FAQ</a></li>
+                                    <li class="menu3">
+                                        <a href="">Help</a>
+
+                                        <ul class="dropmenu3">
+                                            <li>
+                                                <img src="./Images/645dfc91d6307df11f9f072e_chat.svg" alt="" width="40px">
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f0735_knowledge base.svg" alt=""  width="40px">
+                                                <p>Knowledge Base</p>
+                                                <span>Get answers to common issues</span>
+                                            </li>
+                                            <li class="menu-items1" >
+                                                <img src="./Images/645dfc91d6307df11f9f072d_contacts.svg" alt="" width="40px">
+                                                <p>Contact</p>
+                                                <span>Like to reach out? Get in touch with us</span>
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f072c_community 1.svg" alt="" width="40px">
+                                                <p>Community</p>
+                                                <span>Join our community and get updated</span>
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f0731_Report.svg" alt="" width="40px">
+                                                <p>Report account</p>
+                                                <span>Report suspicious activity on your account</span>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </div>
+                            <div class="rightnavbutton">
+                                <span class="signIn">Sign Up</span>
+                            </div>
+                            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                              </svg>  
+                        </div>
+              </div>  
+            </div> 
+        </nav> 
+    </header>
+
+
+<!-- section body  -->
+
+
+    <section class="section1">
+    <div class="section1Body">
+        <div class="sectionbodyleft animate__animated animate__fadeInUpBig"">
+            <h1>
+                We are a bank and our <span class="colorgradient">superpower</span> is giving you access to <span class="colorgradient">credit</span>
+            </h1>
+            <p>Instant loans, Digital Ajo, Savings, and more.</p>
+
+            <div class="magneticButton">
+                <div class="magnetictext">
+                    <span>Get Carbon</span>
+                </div>
+            <div class="appleLogo">
+                <img src="./Images/646dd6284863c32f4bcc1882_Apple icon-p-500.webp" alt="" width="25px">
+            </div>
+            <div class="googleLogo">
+                <img src="./Images/646dd621d8a3d092c094f7ba_google icon-p-500.webp" alt="" width="25px">
+            </div>
+            </div>
+                    <!-- NDIC LOGO AND CBN -->
+<div class="downlogo">
+    <div class="cbnlogo">
+       <img src="./Images/6454ea3e1748c98b28455ea2_CBN logo.webp" alt="">
+    </div> 
+    <div class="cbnText">
+       <p>CBN Licensed</p>
+    </div>
+    <div class="ndic">
+       <img src="./Images/6454ea411748c9e878455f08_NDIC_logo-removebg-preview.png" alt="">
+    </div>
+    <div class="ndicText">
+       <P>NDIC Licensed</P>
+    </div>
+</div>
+  </div>
+
+
+        <!-- SECTIONBODYRIGHT -->
+        <div class="sectionbodyright">
+         <div class="fadeImageOne">
+            <div class="fade-in-image1">
+            <img src="./Images/6454ea4148fc7b239d858c87_vector shape-p-500.webp" width="100%">
+    </div>
+    <div class="fade-in-image2">
+        <img src="./Images/64b275887079905e88f6c3be_handphone.webp" alt="" width="70%">
+    </div>
+    <div class="fade-in-image3">
+        <img src="./Images/6454ea40c6221b168f7c0fe0_yellow sector.svg" alt="" width="12%">
+    </div>
+    <div class="fade-in-image4">
+        <img src="./Images/6454ea3ff1c1c678f9359d36_pink claw.webp" alt="" width="50%">
+    </div>
+<div class="fadeZero">
+<img src="./Images/6454ea3cc6221b336f7c0fd1_carbon zero logo.webp" alt="" width="50%">
+</div>
+</div>
+<!-- <div class="fadeImageSecond">
+    <img class="img1" src="./Images/6454ea422b990a8eb985e908_lady with card2-p-800.webp" alt="" width="88%">
+</div> -->
+</section>
+  
+<section class="sectionflow">
+    <div class="section2">
+    <div class="section2wrapper">
+    <div class="section2text">
+      <h2 class="animate__animated animate__fadeInUpBig">Stay in control of your money with a Carbon account</h2>
+    </div>
+    <div class="section2images">
+      <img class="back" src="./images/6454ea437bc0402f6ef21e44_handdrawn shape 2.webp" alt="">
+      <img class="photo" src="./Images/6454ea3e3fe5c77b0adc57ac_girls with phon 1-p-800.webp" alt="">
+    </div>
+    </div>
+    </div>
+</section>
+
+<section  class="section3box">
+    <div class="section3boxlong">
+<div class="box1">
+    <a class="boxBackground1" href="">
+        <img src="./Images/6454ea400c26daf3a489cf5e_free transfer icon.webp" alt="">
+    </a>
+
+<p>Digital Esusu/Ajo</p>
+</div>
+<div class="box2">
+    <a class="boxBackground2" href="">
+        <img src="./Images/6454ea4138f3f42891ee6634_free credit report icon.webp" alt="">
+    </a>
+<p>Free credit report
+</p>
+</div>
+<div class="box3">
+    <a class="boxBackground3" href="">
+        <img src="./Images/6454ea41cdc29e0333e6ef9d_Interest on account icon.webp" alt="">
+    </a>
+    <p>Monthly interest payout on your account</p>
+</div>
+    </div>
+</section>
+
+<!-- BUTTON SECTION -->
+
+<section class="section4button">
+    <div class="buttonBox">
+        <a href="">
+            <p>Open a Carbon account</p>
+        </a>
+    </div>
+</section>
+
+
+<section class="section5">
+<div class="sectionFiveBody">
+    <div class="fiveBodyLeft">
+       <h1>
+        Instant Loans
+       </h1> 
+    <p>We make access to loans simple and easy. No guarantors, collaterals or long forms. Apply 24/7 and receive funds in your Carbon account instantly. Unlock higher loan amounts and lower interest rates by repaying loans on time.</p>
+
+    <div class="buttonFiveBody">
+        <a class="textLink"  href="">
+            <p>More about Loans</p>
+        </a>
+    </div>
+    </div>
+
+    <div class="fiveBodyRight">
+<img class="womanImg" src="./Images/6454eaf41748c95cec45671c_woman loan 1-p-800.webp" alt="">
+<div class="spline">
+    <img src="./Images/6454ea412b990a8e4485e906_Spline - 12.webp" alt="" width="80px">
+            </div>
+    </div>
+    <div class="pxImage">
+        <img src="./Images/6454ea3c7ae02d714b0a6a77_card alert hero 2.webp" alt="" >
+    </div>
+</div>
+</section>
+
+<section class="sectionSix">
+<div class="sixBoxContainer">
+    <div class="leftsideSix">
+        <div class="smaller1"> 
+     
+        </div>
+        <div class="smallerCirle2">
+                
+        </div>
+        <div class="shopImage">
+            <img src="./Images/6454ea407c0134d9ca25a30c_shop.webp" alt="" width="50px">
+        </div>
+<div class="manImage">
+    <img src="./Images/645aad4512cec53ede261ac5_man shopping-p-800.webp" alt="" width="250px">
+</div>
+<div class="circlePink">
+
+</div>
+
+    </div>
+
+    
+
+    <div class="rightsideSix">
+<div class="headingText1">
+    <h1>
+        Shop now, pay later for pretty much anything
+    </h1>
+    <p>Buy anything, shop anywhere, pay with Carbon Zero. This feature lets you spread the cost of anything into 4 installments at 0% interest.</p>
+</div>
+<div class="rightSideButton">
+    <a href="">
+        <p class="btnText">More about Carbon Zero</p>
+    </a>
+</div>
+    </div>
+
+</div>
+</section>
+
+<section class="sectionSeven">
+<div class="sectionSevenBoxContainer">
+    <div class="leftSevenContainer">
+<h1>Save</h1>
+<p class="saveSectionText">Earn up to 20% interest on your savings. That’s on a 12-month fixed Cash vault savings plan with a ₦50,000 minimum deposit to open. (Fixed means the money will be locked away for 12 months while you earn interest on it)</p>
+<div class="buttonSevenSection">
+    <a class="sevenLink"  href="">
+        <p>More about saving with Carbon</p>
+    </a>
+</div>
+    </div>
+    
+<!-- RIGHT SECTION -->
+
+    <div class="rightSevenContainer">
+<div class="savingCard">
+    <div class="saveCard">
+        <img src="./Images/645ad645b2f0b5e27959e28c_save card 2.webp" alt="" width="150px">
+        </div>
+<img class="savePlan" src="./Images/645ad69eccab5779154c7b4f_savings main card.webp" alt="" width="300px">
+</div>
+<div class="savingPlan">
+<img src="./Images/645ad6f8ed0c8435864da736_create savings plan.webp" alt="" width="200px">
+</div>
+
+<div class="highlight">
+<img src="./Images/645ad85b650f330da848944c_Highlight_right.webp" alt="" width="80px">
+</div>
+<div class="handDrawn">
+<img src="./Images/6454ea410c26da029289cf5f_handrawn shape 1 - green.webp" alt="" width="25px">
+</div>
+    </div>
+</div>
+</section>
+
+<!-- SECTION 8 -->
+
+
+<section class="section8">
+<div class="eightSection">
+    <div class="leftpartEight">
+<img src="./Images/6454ea4038f3f44f9bee6621_telephone 24_7.webp" alt="" width="50%">
+    </div>
+    <!-- RIGHT PART EIGHT -->
+    <div class="rightpartEight">
+        <h1>We’re here to help you</h1>
+        <p>You can email us on the app, slide into our DMs. However you choose to reach out, there’ll always be a friendly person there to make your life easy. Get to know our information’s center in case of emergencies.</p>
+        <div class="eightSectionButton">
+            <a class="eightLink"  href="">
+                <p>Head to our help center</p>
+            </a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- SECTION NINE  -->
+
+<section class="sectionNine">
+<div class="sectionNinebody">
+    <div class="headerText">
+        <h1>Want to know more about our loans?</h1> 
+    </div>
+    <div class="m-4">
+        <div class="accordion" id="myAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Loan information</button>									
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                    <div class="card-body">
+                      <strong>Change the way you achieve your goals</strong>
+                     <p> ‍We’ve made loans easily accessible to you to help you reach your goals and stay in control.</p>
+                     <br>
+                     <strong>What you need to know about our loans</strong>
+<p>• Loan amounts range between ₦2,500 to ₦1,000,000 with repayment periods from 61 days to 12 months at monthly interest rates that range from 4.5% to 30%</p>
+   <p> • The Max APR is 195% per annum.</p>
+   <p> • No collateral or guarantor is necessary.</p>
+   <p>• No hidden fees.</p> 
+   <p>• You unlock higher loan amounts by repaying early and carrying out other transactions on the app.</p>
+    <br>
+    <strong>‍Representative example</strong>
+    <p>‍Loan amount of ₦1,000,000 borrowed for 12 months. Monthly Interest Rate: 4.5%. Total amount payable: ₦1,540,000. APR: 54%. 0.03333% per day late fee</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accBelowButton">
+                <a class="belowLink"  href="">
+                    <p>Learn More Here</p>
+                </a>
+            </div>
+
+</div>
+
+</section>
+
+<section>
+    <div class="sectionTen">
+        <h1>Getting started with the Carbon app</h1>
+        <div class="tenSlider ">
+          <div class="card1 card">
+            <div class="cardtop">
+              <div class="block">
+                <div class="round">
+                  <p>01</p>
+                </div>
+              </div>
+              <h5>Download the app</h5>
+              <p>Get the carbon App on Google Play Store for Andriod or App Store for iOS.</p>
+            </div>
+            <div class="cardbottom">
+              <img src="./Images/6454ea3cf1c1c66dc0359d17_Apple Store icon.svg" alt="">
+              <img src="./Images/6454ea41a1a2ca2c84595489_Google Play Store icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card2 card">
+            <div class="cardtop">
+              <div class="block">
+                <div class="round">
+                  <p>02</p>
+                </div>
+              </div>
+              <h5>Register within minutes</h5>
+              <p>Tell us a few details about you to help us create your Carbon account quickly.</p>
+    
+            </div>
+            <div class="cardbottom">
+              <img src="./Images/card2.webp" alt="">
+            </div>
+          </div>
+          <div class="card3 card">
+            <div class="cardtop">
+              <div class="block">
+                <div class="round">
+                  <p>03</p>
+                </div>
+              </div>
+              <h5>Start banking</h5>
+              <p>You’re ready to go. Carry out all your banking transactions within the app.</p>
+    
+            </div>
+            <div class="cardbottom">
+              <img src="./Images/6454ea409b6df40d2c625d8f_step 3.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section>
+    <div class="section11">
+        <h2>Our happy Clients</h2>
+        <h6>what they say about us</h6>
+        <div class="container">
+            <!-- <h2>Carousel Example</h2>   -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="backBold">
+                      <div class="imgDiv">
+                          <img src="./Images/sliderquote.png" alt="" width="60px">
+                      </div>
+                      <p>I had an awesome experience with carbon, very reliable n trustworthy, infact d instalmental repayment is d tip of d iceberg. I hereby recommend this LOAN APP among apps...CARBON to all prospective borrower, u will never be disappointed.</p>
+                      </div>
+                      <div class="userImgText">
+                          <img src="./Images/gbenga.webp" alt="">
+                          <p>Gbenga John Osukoya</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <div class="backBold">
+                      <div class="imgDiv">
+                          <img src="./Images/sliderquote.png" alt="" width="60px">
+                      </div>
+                      <p>The best online loan service hands down. Just ensure to pay your loans on time and you'll get access to better loans and so many other rewards. Very ideal for fast track business owners who need quick access to funds on the go.</p>
+                      </div>
+                      <div class="userImgText">
+                          <img src="./Images/okafor.webp" alt="">
+                          <p>Elaine Okafor
+                        </p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <div class="backBold">
+                      <div class="imgDiv">
+                          <img src="./Images/sliderquote.png" alt="" width="60px">
+                      </div>
+                      <p>The best payment and fastest loan platform with lower interest rates, very reliable for investment and transact as quick as texting of messages. I recommend you all to join carbon.</p>
+                      </div>
+                      <div class="userImgText">
+                          <img src="./Images/john.webp" alt="">
+                          <p>Jonah Atsale</p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <div class="backBold">
+                      <div class="imgDiv">
+                          <img src="./Images/sliderquote.png" alt="" width="60px">
+                      </div>
+                      <p>This is best loan App I have come across. 1. Easy and convenient to register. 2. Loan amount is the highest I have seen so far. 3. The requirements are normal and not out of place. No request for statement of account or bills. 4. The customer care service is top notch. 5. Prompt is response to compl...</p>
+                      </div>
+                      <div class="userImgText">
+                          <img src="./Images/adenegan.webp" alt="">
+                          <p>Adenegan Opeyemi</p>
+                  </div>
+              </div>
+                  <div class="item">
+                      <div class="backBold">
+                          <div class="imgDiv">
+                              <img src="./Images/sliderquote.png" alt="" width="60px">
+                          </div>
+                          <p>If there is anything more than five star I will give to carbon, they are wonderful and unique in every aspect I highly recommend this app for everyone I love you and guys and ur services, this app is just like a mobile Bank its self, kudos to you guys !!!!</p>
+                          </div>
+                          <div class="userImgText">
+                              <img src="./Images/progress.webp" alt="">
+                              <p>Progress Harrison</p>
+                      </div>
+              </div>
+              <div class="item">
+                  <div class="backBold">
+                      <div class="imgDiv">
+                          <img src="./Images/sliderquote.png" alt="" width="60px">
+                      </div>
+                      <p>If you’re tired of traditional banks, then get Carbon. I use Carbon for nearly all my online transactions for services such as electricity, cable TV, and bank transfers at no cost. Getting a loan is seamless, plus free credit reports.</p>
+                      </div>
+                      <div class="userImgText">
+                          <img src="./Images/adebola.webp" alt="">
+                          <p>Adebola</p>
+                  </div>
+          </div>
+          </div>
+          <!-- </div> -->
+              
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          
+</section>
+
+<section>
+    <div class="section12">
+        <h2>Explore Features</h2>
+        <div class="sliders">
+            <img src="./Images/screenshot.jpg" alt="">
+            <img src="./Images/screenshot (1).jpg" alt="">
+      </div>
+</section>
+ 
+ <section>
+    <div class="section13">
+        <div class="section13container">
+          <img src="./Images/645df70bfe34a96ff873264b_rating - 5 star.svg" alt="">
+          <h2>Join over 3 <span>million</span> people who are changing the way they bank</h2>
+          <a href=""> Get Started Now</a>
+        </div>
+      </div>
+      <footer>
+        <div class="footercontainer">
+          <div class="firstcontent">
+            <img class="log" src="./Images/logo.webp" alt=""><br>
+            <div class="drop">
+              <img src="./Images/nigeria.svg" alt="">
+              <span>Nigeria</span>
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="flist">
+            <ul>
+              <li><h4>Features</h4></li>
+              <li><a href="">Carbon account</a></li>
+              <li><a href="">Payments</a></li>
+              <li><a href="">Cards</a></li>
+              <li><a href="">Carbon Circles</a></li>
+              <li><a href="">investments</a></li>
+              <li><a href="">Credit Reports</a></li>
+              <li><a href="">Loans</a></li>
+            </ul>
+          </div>
+          <div class="flist">
+            <ul>
+              <li><h4>Company</h4></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Career</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+          <div class="flist">
+            <ul>
+              <li><h4>Help</h4></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="">Knowledge base</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Community</a></li>
+            </ul>
+          </div>
+          <div class="flist">
+            <ul>
+              <li><h4>Legal</h4></li>
+              <li><a href="">Privacy policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Whistleblowing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footersocials">
+          <div class="appstore">
+            <img src="./Images/6454ea3cf1c1c66dc0359d17_Apple Store icon.svg" alt="">
+            <img src="./Images/6454ea41a1a2ca2c84595489_Google Play Store icon.svg" alt="">
+          </div>
+          <div class="social">
+            <a href=""><img src="./Images/facebook.svg" alt=""></a>
+            <a href=""><img src="./Images/twitter.svg" alt=""></a>
+            <a href=""><img src="./Images/Instagram.svg" alt=""></a>
+            <a href=""><img src="./Images/youtube.svg" alt=""></a>
+            <a href=""><img src="./Images/LinkedIn.svg" alt=""></a>
+            <a href=""><img src="./Images/tumblr.svg" alt=""></a>
+          </div>
+        </div>
+ </section>
+ 
+ <footer>
+   
+    <div class="footertext">
+      <p>©2024 Carbon is a financial service provided by Carbon Microfinance Bank (RC 1642222), licensed and regulated by the Central Bank of Nigeria (CBN). We empower individuals with credit, simple payments solutions, high-yield investment opportunities, and easy-to-use tools for personal financial management. We are a global company of over 90 employees with a presence in Nigeria.</p>
+      <p>Registered address: Plot 642C Akin Adesola St. Lagos 101233 Nigeria</p>
+    </div>
+ </footer>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

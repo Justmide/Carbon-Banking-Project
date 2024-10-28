@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faqs</title>
+    <link rel="stylesheet" href="faq.css">
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/graphik-trial">
+    <link rel="stylesheet" href="./Mediaquery/faqMediaquery.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<style>
+	/* Custom style */
+    .accordion-button::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+      transform: scale(.7) !important;
+      color: #2c1762;
+  
+    }
+    .accordion-button:not(.collapsed)::after {
+      background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+     
+    }
+
+    .accordion-button::after {
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-size: 2rem;
+   
+    }
+    .m-4 {
+    margin: 0.5rem !important;
+    
+}
+
+.accordion{
+    /* border: medium solid red; */
+    display: inline-flex;
+    flex-direction: column;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.accordion-item{
+    /* border: medium solid red; */
+    border-radius: 10px;
+    box-shadow: 0 10px 30px -10px #1d01501a;
+    
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #f2f3ff;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.accordion-item:last-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #f2f3ff;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.accordion-button {
+    width: 100%;
+    padding: 0.5rem 2.55rem;
+    font-size: 20px;
+    Line-height: 30px;
+    font-family: Graphik Bold;
+    font-weight: 600;
+    color: #2c1762;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #f2f3ff;
+    border-radius: 10px;
+    height: 75px;
+   
+}
+
+.accordion-button:not(.collapsed) {
+    color: #2c1762;
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.card-body p{
+    color: #000000b3;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Graphik Regular;
+    font-weight: 400;
+}
+
+
+@media(max-width: 479px){
+    .accordion-button {
+    width: 100%;
+    padding: 0.5rem 3.55rem;
+    font-size: 20px;
+    Line-height: 30px;
+    font-family: Graphik Regular;
+    font-weight: 600;
+    color: #2c1762;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #f2f3ff;
+    border-radius: 10px;
+    height: 95px;
+}
+}
+
+</style>
+
+<body>
+    <header class="myheader">
+        <nav class="noeffectNav">
+            <div class="navbackground">
+                <div class="containerNoBo">
+                    <div class="navbar">
+
+                      <div class="left">
+                        <div class="leftlogo">
+                            <a href="/index.html"  class="logoImg"><img src="./Images/logo.webp" alt="" width="170px"></a>
+                            <div class="plans">
+                                <a href="/" class="Personal">
+                                    <span>Personal</span></a>
+                                <a href="./Business.html" class="business">Business</a>
+                            </div>
+                        </div>
+
+                        </div>
+                        <div class="right">
+                            <div class="rightnavlist">
+                                <ul class="navlist">
+                                    <li class="featuresMenu">
+                                        <a href="">Features</a>
+                                        <div class="megamenu">
+                                <div class="megamenu-content">
+                                    <div class="leftcontmenu">
+                                        <ul class="leftcontent">
+                                            <li class="megamenu-item">
+                                                <img src="./Images/645dfc91d6307df11f9f0730_Loans-icon.svg" alt="" width="40px">
+                                                <p>Loan</p>
+                                                <span>Instant loans whenever you need it</span>
+                                            </li>
+                                            <li class="megamenu-item">
+                                                <img src="./Images/64678cab442bef0ee623992e_cz icon.svg" alt="" width="40px">
+                                                <p>Carbon Zero</p>
+                                                <span>Buy now, Pay Later</span>
+                                            </li>
+                                           
+                                            <li class="megamenu-item">
+                                                <img src="./Images/65d318e41f1fb626c9ee8197_Circle logo.svg" alt="" width="40px">
+                                                <p>Carbon Circles</p>
+                                                <span>Save in a group with a common goal in mind</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="rightcontmenu">
+                                        <ul class="rightcontent">
+                                            <li class="megamenu-items">
+                                                <img src="./Images/645dfc91d6307df11f9f0732_Paymentsicon.svg" alt="" width="40px">
+                                                <p>Payment</p>
+                                                <span class="sptext">All your payments, in one place</span>
+                                            </li>
+                                            <li class="megamenu-item">
+                                                <img src="./Images/645dfc91d6307df11f9f0739_investment.svg" alt="" width="40px">
+                                                <p class="save">Savings</p>
+
+                                                <span>Earn returns on savings on Carbon</span>
+                                            </li>
+                                            <li class="megamenu-items">
+                                                <img src="./Images/645dfc91d6307df11f9f0733_Credit-report.svg" alt="" width="40px">
+                                                <p>Credit report</p>
+                                                <span class="sptext">Keep track of your credit history</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                  
+                                        </div>
+                                      
+                                    </li>
+                        <!-- DROP DOWN FOR THE COMPANY NAVIGATION -->
+                                    <li class="featuresMenu2">
+                                        <a href="">Company</a>
+                                        <div class="megamenu2">
+                                           <div class="megamenu-content2">
+                                            <div class="leftcontmenu2">
+                                                <ul class="leftcontent2">
+                                                    <li
+                                                    class="megamenu-item2"> 
+                                                <img src="./Images/About.svg" alt="" width="40px">
+                                                <p>About Us</p>
+                                                <span>Providing financial access to anyone</span>
+                                    </li>
+                                                    <li class="megamenu-item2">
+                                                        <img src="./Images/Career.svg" alt="" width="40px">
+                                                        <p>Careers</p>
+                                                        <span>Build the best bank in Africa</span>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="rightcontmenu2">
+                                                <ul class="rightcontent2">
+                                                    <li class="megamenu-items2">
+                                                        <img src="./Images/blog.svg" alt="" width="40px">
+                                                        <p>Blog</p>
+                                                    <span>Get Carbon news and updates</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                           </div> 
+                                        </div>
+                                    </li>
+                                    <li><a href="">Loan Calculator</a></li>
+                                    <li><a href=""><strong>FAQ</strong></a></li>
+                                    <li class="menu3">
+                                        <a href="">Help</a>
+
+                                        <ul class="dropmenu3">
+                                            <li>
+                                                <img src="./Images/645dfc91d6307df11f9f072e_chat.svg" alt="" width="40px">
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f0735_knowledge base.svg" alt=""  width="40px">
+                                                <p>Knowledge Base</p>
+                                                <span>Get answers to common issues</span>
+                                            </li>
+                                            <li class="menu-items1" >
+                                                <img src="./Images/645dfc91d6307df11f9f072d_contacts.svg" alt="" width="40px">
+                                                <p>Contact</p>
+                                                <span>Like to reach out? Get in touch with us</span>
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f072c_community 1.svg" alt="" width="40px">
+                                                <p>Community</p>
+                                                <span>Join our community and get updated</span>
+                                            </li>
+                                            <li class="menu-items1">
+                                                <img src="./Images/645dfc91d6307df11f9f0731_Report.svg" alt="" width="40px">
+                                                <p>Report account</p>
+                                                <span>Report suspicious activity on your account</span>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </ul>
+                        </div>
+                            <div class="rightnavbutton">
+                                <span class="signIn"><a href="./Signup.html">Sign Up</a></span>
+                            </div>
+                            
+                            <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                              </svg>  
+                        </div>
+              </div>  
+            </div> 
+        </nav> 
+    </header>
+
+    <!-- SECTION ONE  -->
+    <section class="faqhero">
+      <div class="faqbackground">
+        <div class="faqleft">
+            <p>Frequently Asked Questions</p>
+        </div>
+        
+<div class="faqright">
+    
+</div>
+      </div>
+    </section>
+
+
+    <!-- ACCORDION BUTTON SECTION  -->
+     <section class="accordionsection">
+<div class="sectionSplit">
+    <div class="leftpartSection">
+        <div class="m-4">
+            <div class="accordion" id="myAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">What is Carbon?
+                        </button>									
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>Carbon is a credit-led digital bank offering modern banking services to ambitious, youthful, unrelenting Africans looking for value and control over their finances.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">What makes Carbon different from other digital banks?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>We provide a better ecosystem of services, including outstanding customer support, the best pricing on banking transactions, the highest savings interest rates, and attractive credit rates.
+                                <br>
+                                <strong>Here are four reasons why Carbon should be your bank of choice:</strong>
+                                <br>
+                                • 1% interest on Carbon Accounts
+                                <br>
+                                • Cash-back on all debit card spend
+                                <br>
+                                • Debit card rebates on select purchases
+                                <br>
+                                • ‘Pay in four’ installments with Carbon Zero on your card</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree">Why request my BVN?</button>                     
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>We need this to confirm you are the one registering on Carbon and not someone else. That's why you need to register with your correct name, date of birth, and phone number as you have it on your BVN.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour">How can I get my bank statement?</button>                     
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>
+                                (Android)
+                                <br>
+To access your Carbon statement on the Carbon app, follow these steps:
+<br>
+• Log in to your carbon account
+<br>
+• On the home page, select <strong>Transactions</strong>
+<br>
+‍• At the bottom right of your transaction page, select "Get statement"
+<br>
+• Input the start date and end date, then click <strong>"Proceed"</strong>
+<br>
+‍• Your statement of account will be sent to your registered email on Carbon.
+<br>
+
+<br>
+(IOS)
+<br>
+To access your Carbon statement on the Carbon app using your IOS device, please follow these steps:
+<br>
+• Log in to your Carbon account,
+<br>
+• Click on the Account tab,
+<br>
+• Select request Statement,
+<br>
+• Input start date and end date,
+<br>
+• Then click on get statement, you will see a successful prompt.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive">Can I use a USSD code?
+                        </button>                     
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>You can access Carbon without the internet using the code: *1303# to fund your Carbon account, buy airtime, or send money.
+                                <br>
+
+                                • For airtime to self - *1303*Amount#
+                                <br>
+                                • For airtime to others - *1303*Amount*Phone No#
+                                <br>
+                                • To transfer to Carbon Wallet - *1303*3*Amount*Phone No#
+                                <br>
+                                • To transfer to Bank Account - *1303*4*Amount*Acct No#</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSix">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSix">How will you add money to my Carbon account?</button>                     
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>You can fund your Carbon account via the Carbon app for transactions by:
+                                <br>
+                                1) Go to the Carbon app home page, click ‘Add money’.
+                                <br>
+                                2) Enter the amount you want to fund your Carbon account with.
+                                <br>
+                                3) Select USSD or add money with a DEBIT CARD for the top-up. If you are yet to set up a card on Carbon, you will be asked to do so at this point.
+                                <br>
+                                4) Once top-up is successfully completed, the funds will reflect in your Carbon account.
+                                <br>
+                                <br>
+                                Also, you can fund your Carbon account directly via bank transfer using your bank's mobile app or USSD to your Carbon account.Bank Name; Carbon or One FinanceAccount Number; Your Carbon account number
+                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSeven">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseSeven">What should I do if I need more help?</button>                     
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>Please contact us by raising a support ticket from the app by clicking the <strong>?</strong>  icon on the homepage of your mobile app or you can reach out to us via the support option on the app by following these steps;• Select "Account" at the footer on the home page,• Choose "Support" and select "Contact customer support".
+                                <br>
+                                <br>
+                                You can send a message to us via this link:
+                                <a href="https://ng.getcarbon.co/contact-form.html ">https://ng.getcarbon.co/contact-form.html </a> to enable us to assist in rectifying the issue.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="rightpartSection">
+        <div class="m-4">
+            <div class="accordion" id="myAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEight">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEight">Is Carbon a registered bank?</button>									
+                    </h2>
+                    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>Yes, Carbon is a Microfinance Bank licensed by the Central Bank of Nigeria (CBN) with deposits insured by the Nigerian Deposit Insurance Corporation (NDIC). Our registration number is RC 1642222.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingNine">
+                        <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseNine">What do I need to open a Carbon account?
+                        </button>
+                    </h2>
+                    <div id="collapseNine" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>To open a Carbon account, you must be at least 18 years old, have a valid mobile number, a functioning email address, a valid ID, and BVN.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTen">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTen">Are my funds safe with Carbon?</button>                     
+                    </h2>
+                    <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>The CBN has fully licensed Carbon as a microfinance bank, and we can confirm with authority that it complies with all capitalization and ratio requirements. We can assure you and all our customers that we do not just have the CBN license, we are also covered by NDIC. Our customers' deposits are insured and covered.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEleven">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseEleven">Unable to sign in, BVN registered to another user.</button>                     
+                    </h2>
+                    <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>This indicates that you have previously registered a Carbon account from our app or from the web application. Kindly sign in (not register) in the app and ensure that all the details provided now are the same as those provided previously. Information such as your date of birth and phone number must be the same to access your account. If the problem persists, kindly send a screenshot of the details entered (phone number and date of birth) for verification here.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwelve">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwelve">What is my maximum account limit?</button>                     
+                    </h2>
+                    <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>Your account limit is determined by your KYC level. See details below:
+                                <br>
+                                <br>
+
+                              <strong>Level 1:</strong>  
+                                <br>
+                                ‍Single transfer limit -0Daily transfer limit- 0Wallet limit - 0
+                                <br>
+                                <br>
+                                <strong>Level 2:</strong>  
+                                <br>
+                                ‍Single transfer limit -₦50,000Daily transfer limit- ₦300,000Wallet limit - ₦500,000
+                                <br>
+                                <br>
+                                
+                                <strong>Level 3:</strong>  
+                                <br>
+                                ‍Single transfer limit -₦1,000,000Daily transfer limit- ₦5,000,000Wallet limit-  ₦999,999,999.99
+                                
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThirteen">
+                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThirteen">Why am i being charged ₦50 for Stamp Duty?</button>                     
+                    </h2>
+                    <div id="collapseThirteen" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                        <div class="card-body">
+                            <p>In line with the federal government directives, a stamp duty of ₦50 will be charged for every account top up of ₦10,000 and above. This is based on the Finance Act which requires all financial institutions to charge the sum of ₦50 on all debit card deposits and online transfers of ₦10,000 or more on your Carbon account.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+     </section>
+   
+
+<!-- THIRD SECTION  -->
+ <section class="answerSection">
+<div class="answerContainer">
+    <div class="bigBox">
+    <div class="bigText">
+        <p>Still can’t find the answer to your question?</p>
+    </div>
+    <div class="bigButtonLink">
+        <p>Visit our help center
+        </p>
+    </div>
+    </div>
+</div>
+ </section>
+
+
+
+<!-- FOOTERRRRRRRRR -->
+
+<footer>
+    <div class="footercontainer">
+      <div class="firstcontent">
+        <img class="log" src="./Images/logo.webp" alt=""><br>
+        <div class="drop">
+          <img src="./Images/nigeria.svg" alt="">
+          <span>Nigeria</span>
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="flist">
+        <ul>
+          <li><h4>Features</h4></li>
+          <li><a href="">Carbon account</a></li>
+          <li><a href="">Payments</a></li>
+          <li><a href="">Cards</a></li>
+          <li><a href="">Carbon Circles</a></li>
+          <li><a href="">investments</a></li>
+          <li><a href="">Credit Reports</a></li>
+          <li><a href="">Loans</a></li>
+        </ul>
+      </div>
+      <div class="flist">
+        <ul>
+          <li><h4>Company</h4></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div class="flist">
+        <ul>
+          <li><h4>Help</h4></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="">Knowledge base</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Community</a></li>
+        </ul>
+      </div>
+      <div class="flist">
+        <ul>
+          <li><h4>Legal</h4></li>
+          <li><a href="">Privacy policy</a></li>
+          <li><a href="">Terms & Conditions</a></li>
+          <li><a href="">Whistleblowing</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footersocials">
+      <div class="appstore">
+        <img src="./Images/6454ea3cf1c1c66dc0359d17_Apple Store icon.svg" alt="">
+        <img src="./Images/6454ea41a1a2ca2c84595489_Google Play Store icon.svg" alt="">
+      </div>
+      <div class="social">
+        <a href=""><img src="./Images/facebook.svg" alt=""></a>
+        <a href=""><img src="./Images/twitter.svg" alt=""></a>
+        <a href=""><img src="./Images/Instagram.svg" alt=""></a>
+        <a href=""><img src="./Images/youtube.svg" alt=""></a>
+        <a href=""><img src="./Images/LinkedIn.svg" alt=""></a>
+        <a href=""><img src="./Images/tumblr.svg" alt=""></a>
+      </div>
+    </div>
+</section>
+
+<footer>
+
+<div class="footertext">
+  <p>©2024 Carbon is a financial service provided by Carbon Microfinance Bank (RC 1642222), licensed and regulated by the Central Bank of Nigeria (CBN). We empower individuals with credit, simple payments solutions, high-yield investment opportunities, and easy-to-use tools for personal financial management. We are a global company of over 90 employees with a presence in Nigeria.</p>
+  <p>Registered address: Plot 642C Akin Adesola St. Lagos 101233 Nigeria</p>
+</div>
+</footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="./index.js"></script>
+</section>
+</body>
+</html>

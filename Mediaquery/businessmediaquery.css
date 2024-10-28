@@ -1,0 +1,3025 @@
+@media(max-width: 1346px){
+    .right .rightnavlist .listRight {
+        gap: 1rem;
+        padding: 0;
+    }
+    .businessaccount{
+        font-size: 10px;
+        width: 210px;
+    }
+}
+
+@media(max-width: 1150px){
+    .right .rightnavlist .listRight {
+        gap: 1rem;
+        padding: 12px;
+    }
+    nav {
+        inset: 0% 0% auto;
+        overflow: visible;
+        box-shadow: 1px 1px 3px -3px #000;
+        backdrop-filter: blur(20px);
+        z-index: 10;
+        width: 100%;
+        padding-left: 4%;
+        padding-right: 7%;
+    }
+
+    .buttonsectiontwo{
+        gap: 2rem;
+       
+    }
+    .navbar .buttonsectiontwo{
+        padding-left: 25px;
+    }
+    .loginButton{
+        width: 120px;
+       
+    }
+
+
+    .businessaccount{
+        font-size: 8px;
+        width: 250px;
+       
+        
+    }
+  
+}
+
+
+
+@media(max-width: 991px){
+    .right {
+        display: inline-flex;
+        justify-content: center;
+        /* align-items: center; */
+        padding-left: 10px;
+    }
+    .svg1{
+    display: block !important;
+    margin-right: -40px;
+}
+
+.right .rightnavlist{
+    display: none;
+}
+
+.navbar .buttonsectiontwo{
+    display: none;
+}
+
+header nav .navbar .left .leftlogo .plans{
+    display: none;
+}
+
+header nav .navbar .left .leftlogo .logoImg{
+    margin-left: -40px;
+}
+
+
+nav{
+    padding-left: 2%;
+}
+
+header nav .navbar .left{
+    margin-left: -20px;
+}
+}
+
+
+
+@media(max-width: 861px){
+
+   
+    header nav .navbar .left .leftlogo{
+        margin-left: 50px;
+    }
+}
+
+/* ENDING OF NAVIGATION BAR Mediaquery */
+
+/* BEGINNING OF SECTION ONE Mediaquery */
+@media(max-width: 1150px){
+    .sectionOne{
+        padding-left: 4%;
+        padding-right: 7%;
+    }
+
+    .sectionTwo{
+        padding-left: 4%;
+        padding-right: 7%;
+    }
+
+    .sectionThreeText{
+        padding-left: 4%;
+        padding-right: 7%;
+    }
+
+    .heroBtn{
+        font-size: 15px;
+    }
+
+    .btnfour{
+        padding-left: 4%;
+        padding-right: 7%;
+        width: 365px;
+    }
+
+    .btnfour p{
+        text-align: center;
+        font-size: 15px;
+       
+    }
+}
+
+@media(max-width: 1150px){
+    .sectionOne{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .sectionTwo{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .sectionThreeText{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .heroBtn{
+        font-size: 15px;
+    }
+
+    .btnfour{
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 285px;
+    }
+
+    .btnfour p{
+        text-align: center;
+        font-size: 15px;
+       
+    }
+}
+
+@media(max-width: 1050px){
+    .businessaccount{
+        width: 300px;
+    }
+
+@media(max-width: 1038px){
+    .boxes1 p {
+        padding-right: 50px;
+    }
+
+    .businessaccount{
+        font-size: 8px;
+        width: 250px;
+        height: 55px;
+        
+    }
+    .businessaccount p{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .loginButton{
+        width: 120px;
+        height: 55px;
+    }
+    
+}
+
+@media(max-width: 991px){
+    .loginBtn{
+display: block !important;
+text-align: center;
+    }
+    .loginBtn p{
+    margin-top: 13px;
+    font-size: 20px;
+    }
+
+    .sectionOne{
+        padding-left: 2%;
+        padding-right: 4%;
+        height: 850px;
+    }
+
+    .headerText{
+       display: none;
+
+    }
+
+    .header2sect{
+        width: 100%;
+    /* border: medium solid rgb(37, 25, 3); */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #EBECFE;
+    border-radius: 32px;
+    /* padding-top: 138px; */
+    /* grid-row-gap: 22px; */
+    /* grid-column-gap: 16px;  */
+   
+    }
+
+
+    .headerText2{
+        color: #5d2ece;
+        text-align: center;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(90deg, #2b0070, #986edb);
+        -webkit-background-clip: text;
+        background-clip: text;
+        /* flex: 0 auto; */
+        font-family: 'Graphik Trial', sans-serif;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 65px;
+    }
+
+    .heroSection{
+        height: 850px;
+    }
+
+    .sectionTwo{
+        height: 370px;
+    }
+    .sectionTwoBoxes{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        /* padding-top: 40px; */
+        height: 350px;
+    }
+    .boxes1{
+        width: 450px;
+        height: 200px;
+    }
+
+    .boxes2{
+        width: 450px;
+        height: 200px;
+    }
+
+    .boxes3{
+        width: 450px;
+        height: 200px;
+    }
+
+
+    .sectionThree{
+        display: none;
+    }
+    .FourBtn{
+        height: 100px;
+        /* padding-top: 330px; */
+    }
+
+    .displayBlockthree{
+        display: block;
+    }
+}
+
+
+@media(max-width: 975px){
+    .displaythree p{
+        padding-left: 40px;
+        padding-right: 80px;
+        line-height: 30px;
+
+    }
+}
+
+
+@media(max-width: 941px){
+    .displaythree p{
+        padding-left: 40px;
+        padding-right: 77px;
+        line-height: 30px;
+
+    }
+}
+
+
+@media(max-width: 834px){
+    .displaythree p{
+        padding-left: 40px;
+        padding-right: 69px;
+        line-height: 30px;
+
+    }
+}
+
+
+@media(max-width: 735px){
+    .displaythree p{
+        padding-left: 40px;
+        padding-right: 62px;
+        line-height: 30px;
+
+    }
+}
+
+@media (max-width: 720px) {
+    .sectionOne {
+        padding-left: 2%;
+        padding-right: 2%;
+        height: 900px;
+    }
+        .heroSection {
+            height: 900px;
+        }
+    }
+
+
+    @media(max-width: 690px){
+        .displaythree p{
+            padding-left: 40px;
+            padding-right: 57px;
+            line-height: 30px;
+    
+        }
+
+        .heroText p{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+
+
+    @media(max-width: 639px){
+           .heroText p{
+            padding-left: 90px;
+            padding-right: 80px;
+        }
+    }
+
+
+    @media(max-width: 612px){
+        .headerText2{
+         padding-left: 32px;
+         padding-right: 32px;
+        
+     }
+
+     .sectionOne{
+        height: 1000px;
+     }
+     .heroSection{
+        height: 1000px;
+     }
+ }
+    
+
+    @media(max-width: 595px){
+        .displaythree p{
+            padding-left: 40px;
+            padding-right: 53px;
+            line-height: 30px;
+    
+        }
+    }
+
+    @media(max-width: 572px){
+        .displaythree p{
+            padding-left: 40px;
+            padding-right: 55px;
+            line-height: 30px;
+    
+        }
+        header nav .navbar .left .leftlogo {
+            margin-left: 90px;
+        }
+
+        .logos .leftImg{
+            margin-left: -70px;
+        }
+
+        .displayBlockthree {
+            height: 140px;
+        }
+    }
+
+
+    @media(max-width: 479px){
+        .headerText2{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 32px;
+            line-height: 35px;
+            font-weight: 530;
+
+        }
+        .heroSection{
+            padding-top: 40px;
+            height: 800px;
+        }
+        .sectionOne{
+            height: 800px;
+        }
+
+        .heroText p {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .heroBtn p{
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .logos{
+            padding-left: 120px;
+            padding-right: 40px;
+        }
+
+        .logos, .userImages {
+            /* grid-column-gap: 16px; */
+            /* grid-row-gap: 16px; */
+        }
+
+        .logos .leftImg{
+            flex-direction: column-reverse;
+            gap: 0;
+        }
+
+        .logos .rightImg{
+            flex-direction: column-reverse;
+            gap: 0;
+        }
+
+        .userImages{
+            flex-direction: column;
+            padding-top: 60px;
+        }
+        .avaterText p{
+            font-size: 17px;
+        }
+
+        .stores{
+            flex-direction: column;
+            padding-top: 100px;
+        }
+        .appstore {
+            display: inline-flex;
+            justify-content: center;
+            /* border: medium solid #001aff; */
+        }
+        .playstore {
+            display: inline-flex;
+            justify-content: center;
+            /* border: medium solid #f3025f; */
+        }
+
+        .displayBlockthree{
+           margin-top: 80px;
+           height: 80px;
+        }
+
+        .displaythree p {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .boxes1 p{
+            font-size: 21px;
+        }
+
+        .boxes1{
+            width: 420px;
+            height: 230px;
+            padding-right: 10px;
+            padding-left: 0;
+        }
+        
+        .boxes2{
+            width: 420px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        
+        .boxes3{
+            width: 420px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        header nav .navbar .left .leftlogo {
+            margin-left: 120px;
+        }
+
+    }
+
+    @media (max-width: 430px) {
+        .logos {
+            padding-left: 80px;
+            padding-right: 40px;
+        }
+        .boxes1{
+            width: 400px;
+            height: 230px;
+            padding-right: 10px;
+            padding-left: 0;
+        }
+        
+        .boxes2{
+            width: 400px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        
+        .boxes3{
+            width: 400px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .displayBlockthree {
+            margin-top: 80px;
+            height: 120px;
+        }
+
+    }
+
+    @media (max-width: 399px) {
+        .logos {
+            padding-left: 80px;
+            padding-right: 40px;
+        }
+        .boxes1{
+            width: 350px;
+            height: 230px;
+            padding-right: 10px;
+            padding-left: 20px;
+        }
+        
+        .boxes2{
+            width: 350px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        
+        .boxes3{
+            width: 350px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .displayBlockthree {
+            margin-top: 80px;
+            height: 120px;
+        }
+
+    }
+
+    @media (max-width: 386px) {
+        .logos .rightImg {
+            flex-direction: column-reverse;
+            width: 160px;
+        }
+    }
+    
+    @media (max-width: 371px) {
+        .logos .leftImg {
+            flex-direction: column-reverse;
+            width: 120px;
+            margin-top: 15px;
+        }
+
+        .boxes3 {
+            width: 350px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+    }
+
+    @media (max-width: 371px) {
+        .headerText2 {
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 32px;
+        }
+    }
+
+    @media (max-width: 355px) {
+        .boxes1 {
+            width: 330px;
+            height: 230px;
+            padding-right: 10px;
+            padding-left: 20px;
+        }
+
+        .boxes2 {
+            width: 330px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+        .boxes3 {
+            width: 330px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+        .logos .leftImg {
+            flex-direction: column-reverse;
+            width: 160px;
+            margin-top: 15px;
+        }
+
+
+    }
+    
+
+
+    @media (max-width: 330px) {
+        .boxes1 {
+            width: 300px;
+            height: 230px;
+            padding-right: 10px;
+            padding-left: 20px;
+        }
+
+        .boxes2 {
+            width: 300px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+        .boxes3 {
+            width: 300px;
+            height: 230px;
+            padding-left: 30px;
+            padding-right: 50px;
+        }
+
+        .logos .leftImg {
+            flex-direction: column-reverse;
+            width: 160px;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+
+        .logos .rightImg{
+            font-size: 12px;
+        }
+
+
+    }
+
+
+    /* SECTION FIVE MEDIAQUERY  */
+    @media (max-width: 1309px) {
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 7%;
+            padding-right: 10%;
+        }
+    }
+
+    @media (max-width: 1287px){
+        .rightLoanHead {
+            display: inline-flex;
+            padding-top: 20px;
+            padding-right: 30px;
+        }
+    }
+   
+    @media (max-width: 1278px) {
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+    }
+
+    
+    @media (max-width: 1237px){
+        .rightLoanHead {
+            display: inline-flex;
+            padding-top: 20px;
+            padding-right: 20px;
+        }
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 6%;
+            padding-right: 7%;
+        }
+    }
+
+    
+    @media (max-width: 1219px){
+        .rightLoanHead {
+            display: inline-flex;
+            padding-top: 20px;
+            padding-right: 10px;
+        }
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+    }
+    
+
+    @media (max-width: 1205px){
+        .rightLoanHead {
+            display: inline-flex;
+            padding-top: 20px;
+            padding-right: 10px;
+        }
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 5%;
+            padding-right: 6%;
+        }
+    }
+    
+    @media (max-width: 1197px){
+        .rightInvestmentHead {
+            display: inline-flex;
+            padding-top: 10px;
+            padding-right: 0px;
+        }
+
+        .bigSection{
+            gap: 1rem;
+        }
+
+        .sevenwrapper{
+            gap: 2rem;
+        }
+
+        .bigSectionEight{
+            gap: 1rem;
+        }
+
+        .bigSectionNine{
+            gap: 2rem;
+        }
+    }
+
+
+    @media (max-width: 1156px){
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+
+        .bigSection{
+            gap: 2rem;
+        }
+
+        .sevenwrapper{
+            gap: 2rem;
+        }
+
+        .bigSectionEight{
+            gap: 2rem;
+        }
+
+        .bigSectionNine{
+            gap: 2rem;
+        }
+
+        .rightLoanHead p {
+            font-size: 35px;
+            font-weight: 400;
+            line-height: 44px;
+            font-family: 'Graphik Trial', sans-serif;
+            color: #333333;
+        }
+        .sectionSeven {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .sectionEight {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .sectionNine{
+        width: 100%;
+        height: 600px;
+        /* border: medium solid rgb(255, 0, 76); */
+        padding-left: 5%;
+        padding-right: 5%;
+        }
+
+        .rightLoanHead{
+            padding-right: 80px;
+        }
+
+        .rightInvestmentHead{
+            padding-right: 50px;
+        }
+    }
+
+
+
+    @media (max-width: 1137px){
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .sectionSeven {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        .sectionEight {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        .sectionNine{
+        width: 100%;
+        height: 600px;
+        /* border: medium solid rgb(255, 0, 76); */
+        padding-left: 3%;
+        padding-right: 3%;
+        }
+        
+        .rightLoanHead{
+            padding-right: 100px;
+        }
+
+        .rightInvestmentHead{
+            padding-right: 50px;
+        }
+    }
+
+
+    @media (max-width:  1112px){
+        .sectionSix {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+        .sectionSeven {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 1%;
+            padding-right: 2%;
+        }
+
+        .sectionEight {
+            width: 100%;
+            height: 600px;
+            /* border: medium solid rgb(255, 0, 76); */
+            padding-left: 1%;
+            padding-right: 1%;
+        }
+
+        .sectionNine{
+        width: 100%;
+        height: 600px;
+        /* border: medium solid rgb(255, 0, 76); */
+        padding-left: 1%;
+        padding-right: 1%;
+        }
+    }  
+
+    @media (max-width: 1054px) {
+        .rightLoanHead {
+            padding-right: 70px;
+        }
+    }
+    @media (max-width: 1032px) {
+        .rightInvestmentHead {
+            padding-right: 30px;
+        }
+    }
+    @media (max-width: 1028px) {
+        .rightLoanHead {
+            padding-right: 80px;
+        }
+    }
+
+
+    @media (max-width: 1001px) {
+        .rightInvestmentHead {
+            padding-right: 20px;
+        }
+    }
+
+
+/* 991 BREAKPOINT OF CARBON */
+@media (max-width: 991px) {
+    .empowerdiv {
+        margin-top: 20px;
+        font-size: 16px;
+       
+    }
+
+    .bigSection {
+        width: 100%;
+        height: 1200px;
+        /* border: medium solid peachpuff; */
+        display: inline-flex;
+        gap: 3rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .leftSix{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .leftHead{
+        font-size: 14px;
+        display: inline-flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    .leftBusiness{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .leftText{
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+    }
+
+    .leftList{
+        padding-left: 40px;
+    }
+
+    .clickme{
+        padding-left: 40px;
+    }
+
+    .sectionSix{
+        height: 1200px;
+    }
+
+    .rightSix{
+        height: 1200px;
+        width: 100%;
+    }
+
+    .businessImg img{
+        width: 650px;
+    }
+
+    .busibalc{
+        margin-left: 0;
+    }
+
+
+    .sectionSeven{
+        height: 1200px;
+    }
+    .sevenwrapper {
+        width: 100%;
+        height: 1200px;
+        /* border: medium solid peachpuff; */
+        display: inline-flex;
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sevenLeft{
+        width: 100%;
+    }
+
+    .bigImgleft img{
+        width: 650px;
+    }
+
+    .imgleft{
+    margin-left: 60px;
+    }
+
+    .sevenRight{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 80px;
+    }
+
+    .rightLoanHead p{
+        font-size: 38px;
+        padding-left: 10px;
+    }
+
+    .rightLoanText{
+        padding-left: 10px;
+    }
+
+    .rightLoanText p{
+       text-align: center;
+       padding-right: 45px;
+    }
+
+    .sectionEight{
+        height: 1200px;
+    }
+
+    .bigSectionEight{
+        flex-direction: column;
+    }
+
+    .leftEight{
+        width: 100%;
+        padding-left: 40px;
+       margin-top: -30px;
+    }
+
+    .rightEight{
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .collectionImg1 img{
+        width: 650px;
+    }
+
+    .collectionImg2 img{
+       margin-left: 170px;
+    }
+
+    .leftCollectionsText p{
+        text-align: center;
+    }
+    .leftCollectionsText{
+        padding-right: 20px;
+    }
+
+    .bigSectionNine{
+        flex-direction: column;
+    }
+
+    .leftNine{
+        width: 100%;
+    }
+
+    .rightNine{
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+
+    .interestImg img{
+        width: 650px;
+    }
+
+    .interest2img{
+      margin-left: 70px;
+      margin-top: -50px;
+    }
+
+    .rightInvestmentText p{
+        text-align: center;
+        padding-right: 90px;
+    }
+}
+   
+
+   
+
+@media (max-width: 980px) {
+    .empowerdiv {
+        margin-top: 20px;
+        font-size: 16px;
+       
+    }
+
+    .bigSection {
+        width: 100%;
+        height: 1200px;
+        /* border: medium solid peachpuff; */
+        display: inline-flex;
+        gap: 3rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .leftSix{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .leftHead{
+        font-size: 14px;
+        display: inline-flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    
+    .leftBusiness{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .leftText{
+        padding-left: 55px;
+        padding-right: 65px;
+        text-align: center;
+    }
+
+    .leftList{
+        padding-left: 40px;
+    }
+
+    .clickme{
+        padding-left: 40px;
+    }
+
+    .sectionSix{
+        height: 1200px;
+    }
+
+    .rightSix{
+        height: 1200px;
+        width: 100%;
+    }
+
+    .businessImg img{
+        width: 650px;
+    }
+
+    .busibalc{
+        margin-left: 0;
+    }
+
+
+    .sectionSeven{
+        height: 1200px;
+    }
+    .sevenwrapper {
+        width: 100%;
+        height: 1200px;
+        /* border: medium solid peachpuff; */
+        display: inline-flex;
+        gap: 3rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sevenLeft{
+        width: 100%;
+    }
+
+    .bigImgleft img{
+        width: 650px;
+    }
+
+    .imgleft{
+    margin-left: 60px;
+    }
+
+    .sevenRight{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 80px;
+    }
+
+    .rightLoanHead p{
+        font-size: 38px;
+        padding-left: 31px;
+        text-align: center;
+    }
+
+    .rightLoanText{
+        padding-left: 10px;
+    }
+
+    .rightLoanText p{
+       text-align: center;
+       padding-right: 45px;
+    }
+
+    .sectionEight{
+        height: 1200px;
+    }
+
+    .bigSectionEight{
+        flex-direction: column;
+    }
+
+    .leftEight{
+        width: 100%;
+        padding-left: 40px;
+       margin-top: -30px;
+    }
+
+    .rightEight{
+        padding-top: 60px;
+        width: 100%;
+    }
+
+    .collectionImg1 img{
+        width: 650px;
+    }
+
+    .collectionImg2 img{
+       margin-left: 170px;
+    }
+
+    .leftCollectionsText p{
+        text-align: center;
+    }
+    .leftCollectionsText{
+        padding-right: 20px;
+    }
+
+    .bigSectionNine{
+        flex-direction: column;
+    }
+
+    .leftNine{
+        width: 100%;
+    }
+
+    .rightNine{
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+
+    .interestImg img{
+        width: 650px;
+    }
+
+    .interest2img{
+      margin-left: 70px;
+      margin-top: -50px;
+    }
+
+    .rightInvestmentText p{
+        text-align: center;
+        padding-right: 90px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .leftHead {
+        text-align: start;
+        justify-content: space-evenly;
+    }
+
+    .leftText {
+        text-align: start;
+    }
+
+    .rightLoanText p {
+        text-align: start;
+    
+    }
+
+
+    .leftCollectionsText p {
+        text-align: start;
+    }
+    .rightInvestmentText p {
+        text-align: start;
+    
+    }
+
+    .empowerdiv {
+        margin-top: 20px;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 685px){
+ .leftHead{
+    padding-left: 20px;
+ }
+
+ .leftText{
+    padding-left: 20px;
+ }
+
+ .leftList {
+    padding-left: 20px;
+}
+
+.sevenRight{
+    padding-left: 20px; 
+}
+
+.rightLoanHead p{
+    padding-left: 0;
+}
+
+
+.rightLoanText{
+    padding-left: 0; 
+}
+
+.leftEight {
+    width: 100%;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+
+.rightNine {
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.businessImg img{
+    width: 550px;
+}
+
+.bigImgleft img {
+    width: 550px;
+}
+
+.collectionImg1 img {
+    width: 550px;
+}
+
+.interestImg img {
+    width: 550px;
+}
+
+.sectionOS{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+}
+
+
+@media(max-width: 570px){
+    .businessImg img{
+        width: 500px;
+    }
+    
+    .bigImgleft img {
+        width: 500px;
+    }
+    
+    .collectionImg1 img {
+        width: 500px;
+    }
+    
+    .interestImg img {
+        width: 500px;
+    }
+}
+
+@media(max-width: 565px){
+.finance p{
+    text-align: center;
+    padding-right: 20px;
+    line-height: 35px;
+}
+
+.OS{
+    padding-bottom: 20px;
+}
+
+
+.leftEight {
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+}
+
+@media(max-width: 511px){
+    .businessImg img{
+        width: 450px;
+    }
+    
+    .bigImgleft img {
+        width: 450px;
+    }
+    
+    .collectionImg1 img {
+        width: 450px;
+    }
+    
+    .interestImg img {
+        width: 450px;
+    }
+}
+
+
+
+@media(max-width: 479px){
+    .leftHead p{
+       font-size: 32px;
+      
+    }
+    .empowerdiv{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .leftHead{
+        padding-right: 0;
+       
+     }
+
+     .rightLoanHead p{
+        font-size: 32px; 
+     }
+     .rightLoanHead{
+        padding-right: 0;
+     }
+
+     .leftCollectionsHead p{
+        font-size: 32px; 
+     }
+
+     .rightInvestmentHead p{
+        font-size: 32px; 
+     }
+
+     .sectionSix {
+        height: 1100px;
+    }
+
+     .sevenwrapper {
+        width: 100%;
+        height: 800px;
+        /* border: medium solid peachpuff; */
+        display: inline-flex;
+        gap: 3rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .sectionSeven {
+        height: 1000px;
+    }
+    .bigSectionNine {
+        flex-direction: column-reverse;
+    }
+
+    .sectionEight {
+        height: 1100px;
+    }
+}
+
+@media(max-width: 465px){
+    .leftHead p {
+        font-size: 30px;
+    }
+
+    .rightLoanHead {
+        padding-right: 34px;
+    }
+
+    .businessImg img{
+        width: 400px;
+    }
+    
+    .bigImgleft img {
+        width: 400px;
+    }
+    
+    .collectionImg1 img {
+        width: 400px;
+    }
+    
+    .interestImg img {
+        width: 400px;
+    }
+
+    .imgleft img{
+        width: 390px;
+      
+    }
+
+    .collectionImg2 img {
+        margin-left: 100px;
+    }
+
+    .interest2img {
+        margin-left: 65px;
+        margin-top: -50px;
+    }
+
+    .imgleft{
+     margin-left: 20px;
+      
+    }
+}
+
+
+@media (max-width: 458px) {
+    .finance p {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 35px;
+    }
+    .financialOS{
+        margin-top: 20px;
+    }
+}
+
+
+@media(max-width: 415px){
+    .leftHead p {
+        font-size: 31px;
+    }
+
+    .rightLoanHead {
+        padding-right: 34px;
+    }
+    
+    .businessImg img{
+        width: 350px;
+    }
+    
+    .bigImgleft img {
+        width: 350px;
+    }
+    
+    .collectionImg1 img {
+        width: 350px;
+    }
+    
+    .interestImg img {
+        width: 350px;
+    }
+
+    .imgleft img{
+        width: 350px;
+      
+    }
+
+    .collectionImg2 img {
+        margin-left: 100px;
+    }
+
+    .interest2img {
+        margin-left: 65px;
+        margin-top: -50px;
+    }
+
+    .imgleft{
+     margin-left: 20px;
+      
+    }
+}
+
+
+@media (max-width: 410px) {
+    .bigSectionNine {
+        gap: 5rem;
+    }
+
+    .interest2img img{
+        width: 300px;
+    }
+
+    .interest2img {
+        margin-left: 55px;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 386px) {
+    .finance p {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 35px;
+    }
+    .bigSectionNine {
+        gap: 10rem;
+    }
+}
+
+@media(max-width: 360px){
+    .businessImg img{
+        width: 320px;
+    }
+    
+    .bigImgleft img {
+        width: 320px;
+    }
+    
+    .collectionImg1 img {
+        width: 320px;
+    }
+    
+    .interestImg img {
+        width: 320px;
+    }
+
+
+    .imgleft img{
+        width: 280px;
+    }
+
+    .collectionImg2 img{
+        width: 300px;
+    }
+
+    .collectionImg2 img {
+        margin-left: 120px;
+    }
+
+    .interest2img {
+        margin-left: 35px;
+        margin-top: -50px;
+    }
+
+
+    .leftCollectionsHead p {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 345px){
+    .leftHead p {
+        font-size: 29px;
+    }
+}
+}
+
+
+
+
+
+/* MEDIAQUERY FOR SECTION 7-FOOTER */
+@media(max-width: 1330px){
+    .businessesBoxes1{
+        max-height: 1200px;
+        height: 816px;
+    }
+}
+
+
+@media(max-width: 1305px){
+    .getStartedHead {
+        margin-top: -5px;
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .subheadCarbon {
+        color: rgb(39, 34, 54);
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .scale {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-top: 45px;
+        font-family: Graphik Regular;
+        text-align: center;
+        padding-left: 212px;
+        padding-right: 150px;
+    }
+}
+
+
+
+@media(max-width: 1297px){
+    .leftHead p{
+        font-size: 35px;
+    }
+
+    .rightLoanHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .clickmeFour {
+        padding-top: 20px;
+        display: inline-flex;
+        padding-left: 0px;
+        font-size: 16px;
+    }
+
+    .clickmeFour p{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 1269px){
+    .getStartedHead {
+        margin-top: -5px;
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+
+    .subheadCarbon {
+        color: rgb(39, 34, 54);
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+
+@media(max-width: 1265px){
+
+
+    .rightLoanHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+
+    .clickmeFour {
+        padding-top: 20px;
+        display: inline-flex;
+        padding-left: 0px;
+        font-size: 16px;
+    }
+
+    .clickmeFour p{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 1250px){
+    .sectionSeven {
+        width: 100%;
+        height: 600px;
+        /* border: medium solid rgb(255, 0, 76); */
+        padding-left: 5%;
+        padding-right: 6%;
+    }
+
+    .leftHead p {
+        font-size: 32px;
+    }
+
+    .getStartedHead {
+        margin-top: -5px;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+    .subheadCarbon {
+        color: rgb(39, 34, 54);
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+}
+/* 
+@media (max-width: 1233px){
+    .subheadCarbon {
+        color: rgb(39, 34, 54);
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .getStartedHead {
+        margin-top: -5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+} */
+
+
+@media (max-width: 1233px){
+    .subheadCarbon {
+        color: rgb(39, 34, 54);
+        padding-left: 0px;
+        padding-right: 40px;
+    }
+
+    .getStartedHead {
+        margin-top: -5px;
+        padding-left: 0px;
+        padding-right: 70px;
+    }
+
+    .almostLast {
+        width: 100%;
+        height: 650px;
+        /* border: medium solid blue; */
+        padding-left: 5%;
+        padding-right: 6%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .scale {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 40px;
+        margin-top: 45px;
+        font-family: Graphik Regular;
+        text-align: center;
+        padding-left: 180px;
+        padding-right: 150px;
+    }
+}
+
+
+@media (max-width: 1189px){
+.sectionNine {
+  
+    padding-left: 5%;
+    padding-right: 6%;
+}
+
+.sectionEight {
+    
+    padding-left: 5%;
+    padding-right: 6%;
+}
+
+.sectionSix {
+  
+    padding-left: 5%;
+    padding-right: 6%;
+}
+.leftHead p {
+    font-size: 36px;
+}
+
+.scale {
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.businessCarbon {
+    width: 100%;
+    height: 600px;
+    /* border: medium solid blue; */
+    background-image: linear-gradient(#fff 7%, #c6afff);
+    border-radius: 20px;
+    text-align: center;
+    padding: 55px 150px;
+}
+
+
+@media (max-width: 1151px){
+    .leftHead p {
+        font-size: 32px;
+    }
+}
+
+
+@media (max-width: 1137px){
+    .sectionEleven {
+        padding-left: 5%;
+        padding-right: 6%;
+        padding-top: 50px;
+    }
+
+    .sectionTen {
+        padding-left: 5%;
+        padding-right: 6%;
+}
+
+footer {
+    padding-left: 5%;
+    padding-right: 6%;
+
+}
+
+.licences {
+    padding-left: 5%;
+    padding-right: 6%;
+}
+
+.scale {
+    padding-left: 130px;
+    padding-right: 10px;
+}
+
+
+.businessCarbon {
+    padding: 55px 120px;
+}
+
+.sectionSeven {
+    width: 100%;
+    height: 600px;
+    /* border: medium solid rgb(255, 0, 76); */
+    padding-left: 3%;
+    padding-right: 4%;
+}
+
+.getStartedHead {
+    margin-top: -5px;
+    padding-left: 4px;
+    padding-right: 70px;
+}
+
+.subheadCarbon {
+    color: rgb(39, 34, 54);
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+}
+
+
+@media (max-width: 1100px){
+    .sectionSix {
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    .sectionSeven {
+        width: 100%;
+        height: 600px;
+        /* border: medium solid rgb(255, 0, 76); */
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    .sectionEight {
+        padding-left: 2%;
+        padding-right: 3%;
+        
+    }
+
+    .scale {
+        padding-left: 160px;
+        padding-right: 10px;
+    }
+
+    .sectionNine {
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    .leftHead p {
+        font-size: 34px;
+    }
+}
+}
+
+@media (max-width: 1078px){
+    .lowerText1 {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 35px;
+    }
+}
+
+
+@media (max-width: 1056px){
+    .businessCarbon {
+        padding: 55px 100px;
+    }
+    .sectionEleven {
+        padding-left: 2%;
+        padding-right: 3%;
+        padding-top: 50px;
+    }
+
+    .rightInvestmentHead {
+        padding-right: 20px;
+    }
+
+}
+
+
+@media (max-width: 1030px){
+.businessCarbon {
+    padding: 55px 130px;
+}
+
+.rightLoanHead {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-right: 70px;
+}
+
+.leftHead {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.rightInvestmentHead p {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 44px;
+    font-family: Graphik Regular;
+    color: #333333;
+}
+
+.sectionElevenBoxes {
+    width: 100%;
+    height: 600px;
+    /* border: medium solid rgb(37, 25, 3); */
+    display: inline-flex;
+    grid-column-gap: 10px;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.sectionTen {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+}
+
+
+@media (max-width: 1000px){
+    .almostLast {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .businessCarbon {
+        padding: 55px 170px;
+    }
+
+    footer {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    lowerText1 .biztext1 {
+        padding-top: 0px;
+    }
+
+    .lowerText1 {
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 35px;
+    }
+
+}
+
+@media (max-width: 991px){
+    .sectionEight {
+        padding-left: 2%;
+        padding-right: 3%;
+        margin-top: 630px;
+    }
+    .tenSection {
+    margin-top: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    }
+
+    .leftTen {
+        width: 100%;
+        /* border: medium solid rgb(255, 0, 76); */
+        display: inline-flex;
+        justify-items: center;
+        /* align-items: center; */
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .rightTen {
+        width: 100%;
+        height: 250px;
+        /* border: medium solid rgb(255, 0, 76); */
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+    .sectionEleven {
+        padding-left: 2%;
+        padding-right: 3%;
+        margin-top: 550px;
+    }
+
+    .sectionTwelve {
+        margin-top: -10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .scale {
+        padding-left: 10px;
+        padding-right: 75px;
+        
+    }
+
+    .almostLast{
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+
+    .rightNine {
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 50px;
+    }
+    .businessesBoxes2 {
+        width: 100%;
+        height: 400px;
+        /* border: medium solid rgb(255, 0, 0); */
+        display: inline-flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        border-radius: 20px;
+    }
+    .businessesBoxes3 {
+        width: 100%;
+        height: 400px;
+        /* border: medium solid rgb(255, 0, 0); */
+        display: flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        margin-top: 70px;
+    }
+    .ImgBoxesSection {
+        width: 100%;
+        height: 1900px;
+        /* border: medium solid rgb(255, 174, 0); */
+        display: inline-flex;
+        gap: 25px;
+       /* margin-top: 350px; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .sectionThirteen {
+        width: 100%;
+        height: 1900px;
+        /* border: medium solid blue; */
+    }
+    .businessesBoxes1 {
+        width: 100%;
+        height: 816px;
+        /* border: medium solid rgb(255, 0, 0); */
+        z-index: 100;
+        border-radius: 20px;
+        background-color: #ff75cb59;
+    }
+/* IMAGESS */
+    .upperImg img { 
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .bizbox1 img {
+       width: 100%;
+    }
+    .bizbox2 img {
+        width: 100%;
+    }
+
+    .bizboxThird2 img {
+       width: 100%;
+    }
+    .bizboxThird1 img {
+       width: 100%;
+    }
+
+    .bizbox1 {
+        width: 100%;
+        height: 450px;
+        
+    }
+
+    .bizbox2 {
+        width: 100%;
+        height: 450px;
+    
+    }
+
+    .bizboxThird1 {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .bizboxThird2 {
+        width: 100%;
+        height: 450px;
+    }
+
+    .lowerText1 {
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 35px;
+    }
+
+    .businessCarbon {
+        padding: 55px 80px;
+    }
+
+
+    footer .footerSection {
+        width: 100%;
+        height: 900px;
+        border-radius: 20px;
+        background-color: #371B79;
+        /* border: medium solid rgb(255, 0, 0); */
+    }
+
+    .footerlinks {
+        width: 100%;
+        height: 750px;
+        display: grid;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        flex-direction: column;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: 1fr;
+        justify-items: center;
+    }
+
+
+    .licences {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .bankingRC p {
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 90px;
+    }
+
+    .bankingRC span {
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 16px;
+        color: rgb(107, 103, 118);
+        font-family: Graphik Regular;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .getStartedHead p {
+        font-size: 45px;
+    }
+
+    .subheadCarbon p {
+        font-size: 30px;
+        line-height: 45px;
+        
+    }
+
+    .subheadCarbon {
+        padding-right: 70px;
+    }
+
+}
+
+
+
+@media (max-width: 972px){
+    .rightInvestmentHead p {
+        padding-right: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .leftHead p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .leftHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+}
+
+
+
+@media (max-width: 946px){
+    .subheadCarbon {
+        padding-right: 100px;
+    }
+}
+
+
+
+
+
+@media (max-width: 872px){
+    .rightInvestmentHead p {
+        padding-right: 20px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .leftHead p {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .leftHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+    .rightfooter {
+        width: 50%;
+        /* border: medium solid red; */
+        justify-content: end;
+        display: inline-flex;
+        padding-right: 30px;
+    }
+
+    .sociallls {
+        margin-left: 30px;
+        gap: 1rem;
+    }
+}
+
+
+
+
+@media (max-width: 870px){
+    .scale {
+        padding-right: 70px;
+    }
+
+    .subheadCarbon {
+        padding-right: 30px;
+    }
+
+    .almostLast {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    footer {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .leftTenstartedHead {
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+
+}
+
+
+
+
+@media (max-width: 859px){
+    .subheadCarbon {
+        padding-right: 30px;
+    }
+
+    .lowerText1 .biztext1 {
+        padding-top: 20px;
+        font-size: 15px;
+        line-height: 30px;
+        font-family: Graphik Thin;
+    }
+
+   
+}
+
+
+
+
+@media (max-width: 839px){
+    .subheadCarbon {
+        padding-right: 55px;
+    }
+    .leftHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 50px;
+    }
+   
+}
+
+
+
+@media (max-width: 820px) {
+    .getStartedHead {
+        padding-right: 30px;
+    }
+
+    .subheadCarbon {
+        padding-right: 35px;
+    }
+}
+
+
+
+@media (max-width: 804px){
+    .subheadCarbon {
+        padding-top: 30px;
+        padding-right: 95px;
+    }
+    .almostLast {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .ImgBoxesSection{
+     padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    footer{
+      padding-left: 6%;
+        padding-right: 6%;
+    }
+
+
+.licences{
+ padding-left: 6%;
+        padding-right: 6%;
+    }
+
+
+    .businessCarbon {
+        padding: 55px 40px;
+    }
+
+}
+
+
+@media (max-width: 774px) {
+    .leftHead p {
+        font-size: 32px;
+        text-align: center;
+    }
+    .lowerText1 .biztext1 {
+        padding-top: 20px;
+        font-size: 17px;
+        font-family: Graphik Thin;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .rightInvestmentHead p {
+        padding-right: 30px;
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .rightLoanHead p {
+        font-size: 38px;
+        padding-left: 0px;
+        text-align: start;
+    }
+
+    .leftHead p {
+        font-size: 35px;
+        text-align: start;
+    }
+
+    .leftHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 63px;
+    }
+
+
+    .almostLast {
+        padding-left: 3%;
+        padding-right: 6%;
+    }
+
+    footer {
+        padding-left: 3%;
+        padding-right: 6%;
+    }
+
+    .ImgBoxesSection{
+        padding-left: 3%;
+        padding-right: 6%;
+    }
+
+}
+
+
+
+@media (max-width: 720px) {
+    .businessCarbon {
+        padding: 55px 60px;
+    }
+
+    .rightInvestmentHead {
+        padding-right: 60px;
+    }
+
+  
+}
+
+
+@media (max-width:696px){
+    .subheadCarbon {
+        padding-top: 30px;
+        padding-right: 55px;
+    }
+    .lastButton{
+padding-left: 50px;
+    }
+}
+
+
+@media (max-width:686px){
+.getStartedHead {
+    padding-right: 20px;
+}
+}
+
+
+@media (max-width:665px){
+.sociallls {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+footer .footerSection {
+    width: 100%;
+    height: 1000px;
+    border-radius: 20px;
+    background-color: #371B79;
+    /* border: medium solid rgb(255, 0, 0); */
+}
+}
+
+@media (max-width: 657px){
+    .subheadCarbon {
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+
+}
+
+
+@media (max-width: 625px) {
+    .ImgBoxesSection {
+        padding-bottom: 250px;
+    }
+    .lowerText1 {
+        padding-top: 0px;
+      
+    }
+
+
+
+    .businessCarbon {
+        width: 100%;
+        height: 750px;
+    
+      
+    }
+
+}
+
+
+@media (max-width: 603px) {
+    .subheadCarbon p{
+        font-size: 35px;
+    }
+    .scale {
+        
+            padding-right: 110px;
+            padding-left: 80px;
+            font-size: 25px;
+    
+    }
+
+}
+
+
+@media (max-width: 594px) {
+    .subheadCarbon p {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 573px) {
+    .subheadCarbon p {
+        font-size: 34px;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .getStartedHead {
+        padding-right: 0px;
+    }
+}
+
+
+@media (max-width: 481px) {
+    .subheadCarbon p {
+        font-size: 33px;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .businessesBoxes2 {
+        display: flex;
+         flex-direction: column;
+     }
+    .businessesBoxes3 {
+       display: flex;
+        flex-direction: column;
+    }
+
+    .sectionThirteen {
+        width: 100%;
+        height: 2200px;
+        /* border: medium solid blue; */
+    }
+
+    .getStartedHead p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .subheadCarbon p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .businessCarbon {
+        padding: 55px 30px;
+    }
+
+
+    .almostLast{
+        height:300px;
+
+    }
+
+    .businessCarbon{
+        height: 300px;
+    }
+
+    .businessButton{
+        width: 200px;
+        height: 40px;
+    }
+
+    .businessButton p{
+        font-size: 14px;
+    }
+
+    .footerlinks {
+        width: 100%;
+        height: 850px;
+        display: flex;
+      
+    }
+
+    footer {
+        width: 100%;
+        height: 850px;
+        /* border: medium solid rgb(255, 0, 0); */
+       
+    }
+
+    footer .footerSection {
+        width: 100%;
+        height: 1200px;
+        border-radius: 20px;
+        background-color: #371B79;
+        /* border: medium solid rgb(255, 0, 0); */
+    }
+
+    .leftsidefooter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .footerSocials {
+        width: 100%;
+        display: inline-flex;
+        margin-top: 600px;
+        flex-direction: column;
+    }
+
+    .footerheader {
+        font-size: 16px;
+       
+    }
+    .footerMenu1 ul a {
+        font-size: 16px;
+      
+    }
+
+
+
+    .rightfooter {
+        width: 100%;
+        /* border: medium solid red; */
+        justify-content: center;
+        display: inline-flex;
+        /* margin-top: 160px; */
+        align-items: center;
+        align-content: center;
+        padding-right: 0;
+    }
+
+    .logosfooter {
+        display: inline-flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+
+    .sociallls {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+.bizboxThird1{
+    margin-top: 500px;
+}
+
+.almostLast {
+    margin-top: 500px;
+    margin-bottom: 200px;
+}
+
+.businessesBoxes2 {
+    width: 100%;
+    height: 900px;
+    
+}
+.businessesBoxes3 {
+    width: 100%;
+    height: 900px;
+    margin-top: -500px;
+    
+}
+.ImgBoxesSection {
+    width: 100%;
+    height: 2500px;
+}
+
+.footerMenu1 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.footerMenu2 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.footerMenu3 {
+    line-height: 40px;
+    text-align: center;
+}
+
+.footerMenu4 {
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.leftHead p {
+    font-size: 28px;
+    text-align: start;
+}
+
+.leftHead {
+    padding-left: 20px;
+    padding-right: 3px;
+}
+.rightLoanHead {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-right: 0px;
+}
+
+.rightLoanHead p{
+    font-size: 28px;
+}
+
+.rightLoanText p {
+
+    padding-right: 5px;
+}
+
+.rightInvestmentHead {
+    padding-right: 0px;
+}
+
+.rightInvestmentHead p {
+    padding-right: 30px;
+    font-size: 28px;
+    text-align: start;
+}
+
+.rightInvestmentText p {
+    padding-right: 10px;
+}
+
+.rightNine {
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.tenSection {
+    margin-top: 400px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.sectionEight {
+    padding-left: 2%;
+    padding-right: 3%;
+    margin-top: 430px;
+}
+
+.scale {
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.footerlinks {
+    width: 100%;
+    height: 330px;
+    /* border: medium solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+.leftTenstartedHead {
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    padding-right: 0px;
+}
+
+}
+
+
+@media (max-width: 418px) {
+    .scale {
+        padding-right: 50px;
+        padding-left: 20px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .businessCarbon {
+        padding: 55px 10px;
+    }
+    .rightLoanHead {
+        display: inline-flex;
+        padding-top: 20px;
+        padding-right: 70px;
+    }
+
+    .rightInvestmentHead p {
+        padding-right: 50px;
+        font-size: 28px;
+        text-align: start;
+    }
+
+    .tenSection {
+        margin-top: 500px;
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .KonstantValue {
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        font-family: Graphik Regular;
+    }
+}
+
+
+
+
+@media (max-width: 390px) {
+    .scale {
+        padding-right: 50px;
+        padding-left: 20px;
+        font-size: 25px;
+        padding-top: 70px;
+    }
+
+    .leftText {
+        padding-left: 20px;
+        padding-right: 5px;
+
+    }
+
+    .rightInvestmentText {
+        display: inline-flex;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    
+    .leftHead p {
+        font-size: 27px;
+        text-align: start;
+    }  
+    
+    .leftTenText {
+        display: inline-flex;
+        padding-right: 0px;
+        padding-top: 10px;
+    }
+}
